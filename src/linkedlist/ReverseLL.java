@@ -39,6 +39,11 @@ public class ReverseLL {
         object.printLL(head);
         head = object.reverseLL(head);
         object.printLL(head);
+        //add numbers in form of LL
+        //reverse odd numbered nodes
+        //reverse in group of k
+        // quick and merge sort on LL
+        // clone a list with random and next
     }
     public static void main(String [] args){
         new ReverseLL().reverseLL();
