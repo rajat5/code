@@ -29,6 +29,15 @@ public class ReverseLL {
             }
             return newhead;
         }
+        Node reverseLL(Node head,Node prev){
+            if(head.next==null){
+                head.next = prev;
+                return head;
+            }
+            Node next = head.next;
+            head.next = prev;
+            return reverseLL(next,head);
+        }
     }
     public void reverseLL(){
         Node object = new Node(0);
@@ -39,8 +48,9 @@ public class ReverseLL {
         object.printLL(head);
         head = object.reverseLL(head);
         object.printLL(head);
-        // TODO : quick and merge sort on LL
-        // clone a list with random and next
+        head = object.reverseLL(head,null);
+        object.printLL(head);
+        // TODO : quick and merge sort on LL,clone a list with random and next , great tree dll
     }
     public static void main(String [] args){
         new ReverseLL().reverseLL();
