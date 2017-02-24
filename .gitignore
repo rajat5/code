@@ -4,6 +4,7 @@ target/
 findbugs/
 test-output/
 bin/
+out/
 activemq-data/
 # Compiled source #
 ###################
