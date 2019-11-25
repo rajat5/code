@@ -6,4 +6,21 @@ public class TODO {
     // radix , bucket , shell
     //lower bound for comparison based sorting, quick sort needs stack, (low+high) >>> 1
 
+
+
+    /**
+        Arrays, LL , Stack, Queues
+        Search
+        Sort
+        String
+        Greedy
+        dp
+        graphs
+        advanced
+            tries, segment
+        recursion and backtrack
+        mail, previous questions, tricky questions
+        top questions
+     */
+
 }
